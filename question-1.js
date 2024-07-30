@@ -1,5 +1,7 @@
 function findStudentById(students, id) {
   // Your code here
+  const student = students.find((student) => student.id === id);
+  return student || null;
 }
 
 // Test case
